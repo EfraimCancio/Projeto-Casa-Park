@@ -1,0 +1,20 @@
+
+* Não precisa codar o formulário
+
+* Fonte lauzane
+
+* imagens pequenas e icones, formato svg
+
+* imagens maiores com transparencia, formato png
+
+* imagens sem transparencia, formato jpg
+
+* atalhos 
+   Ctrl + Shift + 4 (mostrar a grid)
+   Ctrl + barra + mouse (Zoom)	
+   Ctrl + barra + click    
+
+05 / 09 / 2021 
+   
+* A logo do header esta deformando o tamanho da altura.
+* Aprender a aplicar as fontes lauzane	

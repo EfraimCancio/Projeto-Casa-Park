@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "lausanne";
+    src: url("fonts/Lausanne-300.otf") format("opentype"), url("fonts/Lausanne-300Italic.otf") format("opentype"), url("fonts/Lausanne-800.otf") format("opentype"), url("fonts/Lausanne-800Italic.otf") format("opentype");
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "lausanne";
+    background-color: rgb(251, 243, 65);
+}
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.menu-options {
+    text-align: center;
+    text: bold;
+    font-size: 25px;
+    padding-top: 78px; 
+}
+.link-menu{
+    color: black;
+    text-decoration: none;
+}
+.options-list {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+li {
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 35px;
+}
