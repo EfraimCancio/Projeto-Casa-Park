@@ -29,6 +29,10 @@ body {
     list-style: none;
     padding-inline-start: 0px;
 }
+.link-list {
+    color: black;
+    text-decoration: none;
+}
 li {
     padding-bottom: 30px;
     font-weight: bold;
