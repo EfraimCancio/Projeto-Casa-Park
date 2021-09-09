@@ -7,29 +7,31 @@ body {
     padding: 0;
     font-family: "lausanne";
 }
-.stories-header {
+.always-mobile-section{
+    padding-bottom: 48px;
+}
+.always-mobile-header {
     display: flex;
     justify-content: space-between;
-    padding: 28px 10px;
+    padding: 28px 15px;
     font-weight: bold;
     font-size: 24px;
 }
-.link-menu{
+.link-menu {
     color: black;
     text-decoration: none;
 }
-.gallery {
-    padding-top: 23px;
-    margin-bottom: 20px;
-    text-align: center;
+.text-mobile {
+    padding-left: 15px;
 }
-.stories-images {
-    padding-bottom: 40px;
+.informations {
+    padding-top: 18px;
+    padding-left: 15px;
 }
 .footer-section {
     height: 727px;
-    background: url(images/image-02-mobile.png) no-repeat;
-    padding: 41px 10px;
+    background: url(../images/image-02-mobile.png) no-repeat;
+    padding: 41px 15px;
     text-align: center;
     background-color: rgb(197, 201, 206);
 }

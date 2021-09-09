@@ -6,35 +6,26 @@ body {
     margin: 0;
     padding: 0;
     font-family: "lausanne";
-    background-color: rgb(251, 243, 65);
 }
-.menu-header {
+.video-header {
     display: flex;
     justify-content: space-between;
-    padding: 28px 10px;
+    padding: 28px 15px;
     font-weight: bold;
     font-size: 24px;
-}
-.menu-options {
-    text-align: center;
-    text: bold;
-    font-size: 25px;
-    padding-top: 78px; 
 }
 .link-menu{
     color: black;
     text-decoration: none;
 }
-.options-list {
-    list-style: none;
-    padding-inline-start: 0px;
+.video-player {
+    padding-top: 142px;
+    padding-bottom: 194px;
 }
-.link-list {
-    color: black;
-    text-decoration: none;
-}
-li {
-    padding-bottom: 30px;
-    font-weight: bold;
-    font-size: 35px;
+.footer-section {
+    height: 727px;
+    background: url(../images/image-02-mobile.png) no-repeat;
+    padding: 41px 15px;
+    text-align: center;
+    background-color: rgb(197, 201, 206);
 }

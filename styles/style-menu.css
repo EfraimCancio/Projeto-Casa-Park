@@ -6,29 +6,35 @@ body {
     margin: 0;
     padding: 0;
     font-family: "lausanne";
+    background-color: rgb(251, 243, 65);
 }
-.always-mobile-section{
-    padding-inline: 15px;
-    padding-bottom: 48px;
-}
-.always-mobile-header {
+.menu-header {
     display: flex;
     justify-content: space-between;
-    padding: 28px 10px;
+    padding: 28px 15px;
     font-weight: bold;
     font-size: 24px;
 }
-.link-menu {
+.menu-options {
+    text-align: center;
+    text: bold;
+    font-size: 25px;
+    padding-top: 78px; 
+}
+.link-menu{
     color: black;
     text-decoration: none;
 }
-.informations {
-    padding-top: 18px;
+.options-list {
+    list-style: none;
+    padding-inline-start: 0px;
 }
-.footer-section {
-    height: 727px;
-    background: url(images/image-02-mobile.png) no-repeat;
-    padding: 41px 10px;
-    text-align: center;
-    background-color: rgb(197, 201, 206);
+.link-list {
+    color: black;
+    text-decoration: none;
+}
+li {
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 35px;
 }

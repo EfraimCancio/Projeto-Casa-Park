@@ -14,7 +14,14 @@
    Ctrl + barra + mouse (Zoom)	
    Ctrl + barra + click    
 
-05 / 09 / 2021 
+05/09/2021 
    
 * A logo do header esta deformando o tamanho da altura.
 * Aprender a aplicar as fontes lauzane	
+
+09/09/2021
+
+* Implementar um css reset no projetos projeto
+* criar um css global
+
+
