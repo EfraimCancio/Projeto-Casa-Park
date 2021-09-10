@@ -23,5 +23,10 @@
 
 * Implementar um css reset no projetos projeto
 * criar um css global
+* exportar as imagens pequenas como svg
+* pagina house
+   * flex box / flex wrap
+   * house galery =  display flex
+   * imagens dentro de uma div = display flex (layout)
 
 
