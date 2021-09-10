@@ -10,11 +10,30 @@
     color: black;
     text-decoration: none;
 }
-.gallery {
+.l-gallery {
     padding-top: 23px;
     margin-bottom: 20px;
     text-align: center;
 }
-.stories-images {
+.stories-image {
     padding-bottom: 40px;
+}
+.stories-modal {
+    position: absolute;
+    background-color: #FFA439;
+    top: 0;
+    left: 0;
+    height: 4000px;  
+    display: none;       
+}
+.modal-content {
+    padding: 25px;
+    text-align: left;
+}
+.close-modal {
+    float: right;
+
+}
+.modal-content p {
+    padding-top: 70px ;
 }
