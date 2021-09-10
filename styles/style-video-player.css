@@ -1,12 +1,4 @@
-@font-face {
-    font-family: "lausanne";
-    src: url("fonts/Lausanne-300.otf") format("opentype"), url("fonts/Lausanne-300Italic.otf") format("opentype"), url("fonts/Lausanne-800.otf") format("opentype"), url("fonts/Lausanne-800Italic.otf") format("opentype");
-}
-body {
-    margin: 0;
-    padding: 0;
-    font-family: "lausanne";
-}
+
 .video-header {
     display: flex;
     justify-content: space-between;
@@ -21,11 +13,4 @@ body {
 .video-player {
     padding-top: 142px;
     padding-bottom: 194px;
-}
-.footer-section {
-    height: 727px;
-    background: url(../images/image-02-mobile.png) no-repeat;
-    padding: 41px 15px;
-    text-align: center;
-    background-color: rgb(197, 201, 206);
 }
