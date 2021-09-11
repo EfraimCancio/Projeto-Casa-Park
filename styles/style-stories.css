@@ -19,12 +19,15 @@
     padding-bottom: 40px;
 }
 .stories-modal {
-    position: absolute;
+    display: none;
     background-color: #FFA439;
     top: 0;
     left: 0;
-    height: 4000px;  
-    display: none;       
+    height: 4000px;      
+}
+.show {
+    display: flex;
+    position: fixed;
 }
 .modal-content {
     padding: 25px;

@@ -10,11 +10,30 @@
     color: black;
     text-decoration: none;
 }
-.house-gallery {
+.l-house-gallery {
     margin: 0px;
     padding-top: 23px;
 }
-.house-images {
+.l-house-image {
     padding: 0px;
     margin: 0px;   
+}
+.house-modal {
+    display: none;
+    top: 130px;
+    left: 20px;
+    background-color: #fff;
+    height: 279px;
+    width: 280px;      
+}
+.show {
+    display: flex;
+    position: fixed;
+}
+.modal-content {
+    padding: 38px 20px 0px 20px ;
+    text-align: left;
+}
+.modal-content p {
+    padding-bottom: 0px;
 }
