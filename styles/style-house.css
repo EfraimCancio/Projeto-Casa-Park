@@ -6,6 +6,7 @@
     font-weight: bold;
     font-size: 24px;
 }
+
 .link-menu{
     color: black;
     text-decoration: none;
@@ -41,3 +42,6 @@
 .modal-content p {
     padding-bottom: 0px;
 }
+ @media screen and (min-width: 768px) {
+
+ }

@@ -14,6 +14,7 @@
     padding: 28px 15px;
     font-weight: bold;
     font-size: 27px;
+    color: white;
 }
 .link-menu{
     color: white;
@@ -38,5 +39,20 @@ li {
     padding-bottom: 43px;
     font-weight: bold;
     font-size: 28px;
+}
+
+@media screen and (min-width: 768px) {
+    .main-section {
+        background-image: url(../images/image-home-desktop.jpg); 
+    }
+    .home-header {
+        font-size: 45px;
+    }
+    .link-options {
+        font-size: 81px;
+    }
+    li {
+        padding-bottom: 80px;
+    }
 }
 

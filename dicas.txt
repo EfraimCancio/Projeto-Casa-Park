@@ -33,3 +33,11 @@
 
 * Não consegui exportar as imagens pequenas do figma
 * Estou com dificuldades nas duas modals
+
+12/09/2021
+
+*marcar reunião com a mentora para finalizar o mobile
+ e começar a preparar o desktop
+*Começar a exportar as imagens para o desktop
+*Estudar @medias Querys
+

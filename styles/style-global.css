@@ -7,10 +7,13 @@ body {
     padding: 0;
     font-family: "lausanne";
 }
+.desk-menu {
+    display: none;
+}
 .footer-section {
     width: 100%;
     height: 727px;
-    background-image: url(../images/image-02-mobile.png);
+    background-image: url(../images/image-footer-mobile.png);
     padding-top: 41px;
     text-align: center;
     background-color: rgb(197, 201, 206);
@@ -20,4 +23,13 @@ body {
 }
 .footer-section p {
     padding-top: 51px;
+}
+
+@media screen and (min-width: 768px) {
+    .desk-menu {
+        display: inline;
+    }
+    .footer-section {
+        background-image: url(../images/image-footer-desktop.jpg); 
+    }
 }
