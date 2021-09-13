@@ -5,7 +5,7 @@
     background-image: url(../images/image-home-mobile.jpg); 
     background-position: center;
     text-align: center; 
-    background-color: aqua;    
+    background-repeat: no-repeat;  
 }
 
 .home-header {
