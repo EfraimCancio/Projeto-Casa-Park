@@ -29,4 +29,7 @@
    * house galery =  display flex
    * imagens dentro de uma div = display flex (layout)
 
+11/09/2021
 
+* Não consegui exportar as imagens pequenas do figma
+* Estou com dificuldades nas duas modals

@@ -11,8 +11,12 @@
     text-decoration: none;
 }
 .l-house-gallery {
+    display: flex;
     margin: 0px;
     padding-top: 23px;
+    width: 100%;
+    background-position: center;
+    text-align: center; 
 }
 .l-house-image {
     padding: 0px;
