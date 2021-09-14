@@ -31,5 +31,6 @@ body {
     }
     .footer-section {
         background-image: url(../images/image-footer-desktop.jpg); 
+        background-repeat: no-repeat;
     }
 }

@@ -7,11 +7,10 @@
     text-align: center; 
     background-repeat: no-repeat;  
 }
-
 .home-header {
     display: flex;
     justify-content: space-between;
-    padding: 28px 15px;
+    padding: 28px 15px;    
     font-weight: bold;
     font-size: 27px;
     color: white;
@@ -19,6 +18,7 @@
 .link-menu{
     color: white;
     text-decoration: none;
+    padding-right: 15px;
 }
 .home-options {
     color: white;

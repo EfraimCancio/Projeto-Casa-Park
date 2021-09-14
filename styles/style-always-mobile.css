@@ -22,3 +22,8 @@
 .informations p {
     padding-bottom: 20px;
 }
+@media screen and (min-width: 768px) {
+    .always-mobile-header {
+        font-size: 45px;
+    }
+}
