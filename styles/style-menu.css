@@ -29,3 +29,12 @@ li {
     font-weight: bold;
     font-size: 28px;
 }
+@media screen and (min-width: 768px) {
+    .menu-header{
+        font-size: 45px;
+    }
+    li {
+        padding-bottom: 80px;
+        font-size: 81px;
+    }
+}

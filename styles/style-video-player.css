@@ -14,3 +14,8 @@
     padding-top: 142px;
     padding-bottom: 194px;
 }
+@media screen and (min-width: 768px) {
+    .video-header {
+        font-size: 45px;
+    }
+}
