@@ -1,11 +1,11 @@
 @font-face {
-    font-family: "lausanne";
+    font-family: "Lausanne";
     src: url("../fonts/Lausanne-300.otf") format("opentype"), url("../fonts/Lausanne-300Italic.otf") format("opentype"), url("../fonts/Lausanne-800.otf") format("opentype"), url("../fonts/Lausanne-800Italic.otf") format("opentype");
 }
 body {
     margin: 0;
     padding: 0;
-    font-family: "lausanne";
+    font-family: "Lausanne", -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 .desk-menu {
     display: none;
@@ -33,4 +33,12 @@ body {
         background-image: url(../images/image-footer-desktop.jpg); 
         background-repeat: no-repeat;
     }
+}
+
+.link-menu{
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+    text-decoration: none;
+    padding-right: 15px;
 }
