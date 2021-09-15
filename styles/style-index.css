@@ -1,9 +1,10 @@
 
 .main-section {
     width: 100%;
-    height: 900px;   
+    height: 100vh;
+    min-height: 900px;
     background-image: url(../images/image-home-mobile.jpg); 
-    background-position: center;
+    background-position: top center;
     text-align: center; 
     background-repeat: no-repeat;  
 }
@@ -37,21 +38,29 @@
     padding-bottom: 4px;
 }
 .l-options-list__item {
-    padding-bottom: 43px;
+    margin-bottom: 32px;
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
     .main-section {
         background-image: url(../images/image-home-desktop.jpg); 
+        background-size: cover;
+        min-height: 1100px;
     }
     .home-header {
         font-size: 45px;
     }
     .link-options {
-        font-size: 81px;
+        font-size: 64px;
     }
-    li {
-        padding-bottom: 80px;
+    .l-options-list__item {
+        margin-bottom: 50px;
     }
 }
 
+@media (min-width: 1200px) {
+    .link-options {
+        font-size: 100px;
+        line-height: 1.11;
+    }
+}

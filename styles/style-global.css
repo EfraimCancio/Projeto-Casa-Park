@@ -9,15 +9,17 @@ body {
 }
 .desk-menu {
     display: none;
+    font-size: 40px;
 }
 .footer-section {
     width: 100%;
     height: 727px;
-    background-image: url(../images/image-footer-mobile.png);
+    background-image: url(../images/newsletter/fundo-newsletter--mobile.jpg);
     padding-top: 41px;
     text-align: center;
     background-color: rgb(197, 201, 206);
-    background-position: center;
+    background-position: top left;
+    background-size: cover;
     text-align: center; 
     background-repeat: no-repeat;
 }
@@ -29,12 +31,19 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-    .desk-menu {
-        display: inline;
-    }
     .footer-section {
         background-image: url(../images/image-footer-desktop.jpg); 
         background-repeat: no-repeat;
+        background-position: top center;
+    }
+}
+@media (min-width: 1200px) {
+    .desk-menu {
+        display: inline;
+    }
+
+    .footer-section {
+        height: 775px;
     }
 }
 
@@ -43,4 +52,14 @@ body {
     font-size: 24px;
     font-weight: 800;
     text-decoration: none;
+}
+
+.logo-casa {
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .logo-casa--header {
+        min-width: 172px;
+    }
 }
