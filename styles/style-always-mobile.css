@@ -35,4 +35,15 @@
     .always-mobile-header {
         font-size: 45px;
     }
+    .always-mobile-container {
+        display: flex;
+        margin-top: 32px;
+        font-size: 24px; 
+        Line height: 31,2;
+
+    }
+    .text-mobile {
+        width: 70%;
+        margin-right: 14px;
+    }
 }
