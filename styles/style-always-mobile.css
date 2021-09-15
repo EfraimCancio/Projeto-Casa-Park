@@ -16,8 +16,8 @@
     color: black;
     text-decoration: none;
 }
-.text-mobile {
-    padding: 15px;
+.page-content{
+    padding: 0px 15px;
 }
 .text-mobile p {
     margin-bottom: 10px;
@@ -45,7 +45,9 @@
         width: 70%;
         margin-right: 14px;
         padding: 0px;
-
+    }
+    .text-space {
+        margin-top: 74px;
     }
     .informations {
         padding: 0px;
