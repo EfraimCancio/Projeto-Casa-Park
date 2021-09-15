@@ -12,10 +12,26 @@
 <body>
     <section>
         <header class="house-header">
-            <img src="images/logo-mob-black.svg">
+            <a href="index.html" class="l-logo-casa">
+                <img src="images/logo-mob-black.svg">
+            </a>
             <p class="desk-menu">A Casa</p>
-            <a href="menu.html" class="link-menu">Menu</a>
+            <button class="link-menu" onclick="openNav()">Menu</button>
         </header>
+        <!-- Full Screen Menu -->
+        <div id="fs-menu" class="fs-menu-overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Fechar</a>
+            <div class="fs-menu-overlay-content">
+                <div class="l-fs-menu-header"></div>
+                <ul class="l-fs-menu-list">
+                    <li class="l-fs-menu-list__item"><a class="fs-menu-link" href="always-mobile.html">Sempre móvel</a></li>
+                    <li class="l-fs-menu-list__item"><a class="fs-menu-link" href="the-new-casapark.html">O novo casapark</a></li>
+                    <li class="l-fs-menu-list__item"><a class="fs-menu-link" href="stories.html">As histórias</a></li>
+                    <li class="l-fs-menu-list__item"><a class="fs-menu-link" href="house.html">A casa</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- .\ Full Screen Menu -->
         <div class="l-house-gallery">
                 <div class="l-house-images">
                     <a class="open-modal" id="open-modal" href="#house-modal">
@@ -45,6 +61,7 @@
         <img src="images/logo-footer.png">
         <p>assine nossa newsletter e fique <br> por dentro de todas as novidades</p>
     </section>
+    <script type="text/javascript" src="scripts/global-script.js"></script>
     <script type="text/javascript" src="scripts/house-script.js">
      </script>
 </body>
