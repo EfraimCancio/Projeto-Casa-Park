@@ -24,6 +24,9 @@ body {
 .footer-section p {
     padding-top: 51px;
 }
+.newsletter-desc {
+    line-height: 1.14;
+}
 
 @media screen and (min-width: 768px) {
     .desk-menu {
@@ -40,5 +43,4 @@ body {
     font-size: 24px;
     font-weight: 800;
     text-decoration: none;
-    padding-right: 15px;
 }

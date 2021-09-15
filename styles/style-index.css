@@ -18,18 +18,23 @@
 .home-options {
     color: white;
     text-align: center;
-    text: bold;
+    font-weight: 800;
     padding-top: 105px; 
 }
 .options-list {
     list-style: none;
     padding-inline-start: 0px;
 }
-.link-options{
+.link-options {
     color: white;
     text-decoration: none;
     font-size: 35px;
     font-weight: 800;
+    transition: .2s all;
+}
+.link-options:hover, .link-options:focus {
+    border-bottom: 1px solid white;
+    padding-bottom: 4px;
 }
 .l-options-list__item {
     padding-bottom: 43px;
