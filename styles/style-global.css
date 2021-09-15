@@ -56,6 +56,9 @@ strong {
     .footer-section {
         height: 775px;
     }
+    .page-content {
+        padding: 0px 50px;
+    }
 }
 
 .link-menu {

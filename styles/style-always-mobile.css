@@ -39,11 +39,17 @@
         display: flex;
         margin-top: 32px;
         font-size: 24px; 
-        Line height: 31,2;
-
+        line-height: 31.2px;
     }
     .text-mobile {
         width: 70%;
         margin-right: 14px;
+        padding: 0px;
+
+    }
+    .informations {
+        padding: 0px;
+        margin-top: 0px;
+        margin-left: 44px;
     }
 }
