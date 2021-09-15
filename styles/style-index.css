@@ -27,6 +27,7 @@
     padding-inline-start: 0px;
 }
 .link-options {
+    border-bottom: 5px solid transparent;
     color: white;
     text-decoration: none;
     font-size: 35px;
@@ -34,8 +35,8 @@
     transition: .2s all;
 }
 .link-options:hover, .link-options:focus {
-    border-bottom: 1px solid white;
-    padding-bottom: 4px;
+    border-bottom-color: white;
+    padding-bottom: 8px;
 }
 .l-options-list__item {
     margin-bottom: 32px;
