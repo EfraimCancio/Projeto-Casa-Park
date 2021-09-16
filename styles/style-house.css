@@ -21,7 +21,11 @@
 }
 .l-house-image {
     padding: 0px;
-    margin: 0px;   
+    margin: 0px;  
+}
+.house-image {
+    width: 100%;
+    height: auto;
 }
 .house-modal {
     display: none;
