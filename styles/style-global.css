@@ -102,7 +102,7 @@ strong {
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: #FBF341;
+    background-color: #FFA43B;
     overflow: hidden;
     transition: 0.5s;
 }
@@ -123,16 +123,25 @@ strong {
     margin-top: 32px;
 }
 .fs-menu-link {
-    border-bottom: 5px solid transparent;
+    /* you can change these variables to control the border */
+    --border-color: black;
+    --border-width: 5px;
+    --bottom-distance: 0px; /* you can increase this */
+    background-image: linear-gradient(var(--border-color), var(--border-color));
+    background-size: 0% var(--border-width);
+    background-repeat: no-repeat;
     color: black;
     font-size: 35px;
     font-weight: 800;
+    padding-bottom: 8px;
     text-decoration: none;
-    transition: .2s all;
+    transition: background-size .5s;
+}
+.fs-menu-link--from-center {
+  background-position: 50% calc(100% - var(--bottom-distance));
 }
 .fs-menu-link:hover, .fs-menu-link:focus {
-    border-bottom-color: black;
-    padding-bottom: 8px;
+    background-size: 100% var(--border-width);
 }
 @media (min-width: 768px) {
     .fs-menu-link {
@@ -151,9 +160,9 @@ strong {
   .fs-menu-overlay {overflow-y: auto;}
   .fs-menu-overlay .fs-menu-link {font-size: 20px}
   .fs-menu-overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
   }
 }
 @media screen and (max-height: 700px) {
