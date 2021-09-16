@@ -11,14 +11,16 @@
     text-decoration: none;
 }
 .l-gallery {
-    
-    margin: 18px 15px 15px 15px;
+    margin: 15px 15px 50px;
     text-align: center;
 }
+.l-gallery .open-modal {
+    display: block;
+    padding-bottom: 20px;
+}
 .stories-image {
-    padding-bottom: 40px;
+    display: block;
     width: 100%;
-    
 }
 .stories-modal-left01 {
     display: none;
