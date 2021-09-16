@@ -32,6 +32,31 @@
 .stories-modal-right01 {
     background-color: #FBF341;   
 }
+.stories-modal-left02{
+    background-color: #2B61D7;
+}
+.stories-modal-right02 {
+    background-color: #61EA56;   
+}
+.stories-modal-left03{
+    background-color: #B445F8;
+}
+.stories-modal-right03 {
+    background-color: #FFA439;   
+}
+.stories-modal-left04{
+    background-color: #61EA56;
+}
+.stories-modal-right04 {
+    background-color: #2B61D7;   
+}
+.stories-modal-left05{
+    background-color: #2B61D7;
+}
+.stories-modal-right05 {
+    background-color: #FFA439;   
+}
+
 .show {
     position: fixed;
     height: 4000px; 
