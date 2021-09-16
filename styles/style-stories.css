@@ -9,6 +9,13 @@
 .l-image {
     padding-bottom: 20px;
 }
+
+@media screen and (min-width: 768px){
+    .l-image {
+        pointer-events:none;
+    }
+}
+
 .l-gallery .open-modal {
     display: block;
 }
