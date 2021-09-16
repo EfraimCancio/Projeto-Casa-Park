@@ -14,6 +14,18 @@ strong {
     display: flex;
     align-items: center;
 }
+.header-internal-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 15px;
+    font-weight: bold;
+    font-size: 24px;
+}
+@media screen and (min-width: 768px) {  
+    .header-internal-page {
+        font-size: 45px;
+    }
+}
 .l-logo-casa {
     display: flex;
     align-items: center;
