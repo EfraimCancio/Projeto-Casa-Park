@@ -17,5 +17,9 @@ function openNav() {
 }
 
 function closeNav() {
-    document.getElementById("fs-menu").classList.remove('show');
+    document.getElementById("fs-menu").classList.add('hide');
+    setTimeout(function(){
+        document.getElementById("fs-menu").classList.remove('hide')
+        document.getElementById("fs-menu").classList.remove('show');
+    }, 1000);
 }
