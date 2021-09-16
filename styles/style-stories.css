@@ -15,11 +15,15 @@
     width: 100%;
 }
 .stories-modal-left01 {
-    display: none;
+    transition: opacity 1s ease-out;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    overflow: hidden;
     background-color: #F356AB;
     top: 0;
     left: 0;
-    height: 4000px;       
+          
 }
 .stories-modal-right01 {
     display: none;
@@ -29,9 +33,16 @@
     height: 4000px;       
 }
 .show {
-    display: flex;
     position: fixed;
+    height: 4000px; 
+    width: 100%;
+    opacity: 1;
 }
+
+.hide{
+    opacity: 0;
+}
+
 .modal-content {
     padding: 25px;
     text-align: left;
