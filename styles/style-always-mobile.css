@@ -1,6 +1,9 @@
-
 .always-mobile-section{
     padding-bottom: 30px;
+    margin-top: 6px;
+}
+.always-mobile-container {
+    padding-bottom: 40px;
 }
 .always-mobile-section {
     line-height: 1.35;
@@ -24,8 +27,7 @@
 }
 
 .informations {
-    margin-top: 14px;
-    padding: 0 15px;
+    margin-top: 42px;
 }
 .informations-links {
     color: black;
@@ -36,30 +38,42 @@
 }
 .informations p {
     line-height: 1.35;
-    padding-bottom: 20px;
+    padding-bottom: 24px;
     font-weight: 300;
 }
+.text-space {
+    margin-top: 42px;
+}
+.desk-menu{
+    font-weight: 800;
+}
 @media screen and (min-width: 768px) {
+    .always-mobile-section {
+        margin-top: 45px;
+        padding: 0 50px;
+    }
+}
+@media screen and (min-width: 1200px) {
     .always-mobile-header {
         font-size: 45px;
     }
-    .desk-menu{
-        font-weight: 800;
-    }
     .always-mobile-container {
         display: flex;
-        margin-top: 32px;
-        margin-bottom: 69px;
-        font-size: 24px; 
+        font-size: 24px;
         line-height: 31.2px;
+        margin-top: 32px;
+        padding-bottom: 45px;
     }
     .text-mobile {
         width: 70%;
         margin-right: 14px;
         padding: 0px;
     }
+    .text-mobile p {
+        margin-bottom: 18px;
+    }
     .text-space {
-        margin-top: 74px;
+        margin-top: 60px;
     }
     .informations {
         padding: 0px;
