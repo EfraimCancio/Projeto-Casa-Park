@@ -24,15 +24,37 @@
     overflow: hidden;
     background-color: #F356AB;
     top: 0;
-    left: 0;
-          
+    left: 0;        
 }
 .stories-modal-right01 {
-    display: none;
+    transition: opacity 1s ease-out;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    overflow: hidden;
     background-color: #FBF341;
     top: 0;
     left: 0;
-    height: 4000px;       
+}
+.stories-modal-left02 {
+    transition: opacity 1s ease-out;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    background-color: #2B61D7;
+    top: 0;
+    left: 0;        
+}
+.stories-modal-right02 {
+    transition: opacity 1s ease-out;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    background-color: #61EA56;
+    top: 0;
+    left: 0;
 }
 .show {
     position: fixed;
