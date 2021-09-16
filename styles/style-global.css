@@ -24,6 +24,7 @@ strong {
 @media screen and (min-width: 768px) {  
     .header-internal-page {
         font-size: 45px;
+        padding: 28px 50px;
     }
 }
 .l-logo-casa {
