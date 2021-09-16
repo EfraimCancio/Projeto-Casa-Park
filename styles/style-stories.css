@@ -44,4 +44,13 @@
     .stories-header {
         font-size: 45px;
     }
+    .l-gallery {
+        display: flex;
+    }
+    .l-gallery-collum-left {
+        width: 50%;
+    }
+    .l-gallery-collum-right {
+        width: 50%;
+    }
 }
