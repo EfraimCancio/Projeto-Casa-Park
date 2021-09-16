@@ -11,8 +11,10 @@
     text-decoration: none;
 }
 .video-player {
-    padding-top: 142px;
-    padding-bottom: 194px;
+   
+    justify-content: center;
+    width: 100%;
+    min-height: 560px;
 }
 @media screen and (min-width: 768px) {
     .video-header {
