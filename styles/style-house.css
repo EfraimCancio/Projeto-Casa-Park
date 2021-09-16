@@ -24,6 +24,7 @@
     margin: 0px;  
 }
 .house-image {
+    display: block;
     width: 100%;
     height: auto;
 }
