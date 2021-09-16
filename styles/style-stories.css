@@ -46,11 +46,20 @@
     }
     .l-gallery {
         display: flex;
+        margin: 11px 50px;
+        padding: 0px;
     }
     .l-gallery-collum-left {
+        margin-right: 85px;
         width: 50%;
     }
     .l-gallery-collum-right {
+        margin-left: 85px;
         width: 50%;
+    }
+    .stories-image {
+        width: 100%;
+        max-width: 825px;
+        padding-bottom: 150px;
     }
 }
