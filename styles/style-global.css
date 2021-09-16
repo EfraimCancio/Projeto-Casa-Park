@@ -144,6 +144,11 @@ em, i {
 .fs-menu-overlay.show {
     height: 100%;
     width: 100%;
+    opacity: 1;
+}
+
+.fs-menu-overlay.hide {
+    opacity: 0;
 }
 
 .fs-menu-overlay-content {
