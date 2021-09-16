@@ -5,7 +5,11 @@ open01.addEventListener('click', () => {
     modal01.classList.add('show');
 })
 close01.addEventListener('click', () => {
-    modal01.classList.remove('show');
+    modal01.classList.add('hide');
+    setTimeout(function(){
+        modal01.classList.remove('show');
+        modal01.classList.remove('hide');
+    }, 1000);
 })
 
 const modal02 = document.getElementById('stories-modal-right01');
