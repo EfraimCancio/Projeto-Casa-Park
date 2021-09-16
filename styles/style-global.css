@@ -129,7 +129,6 @@ em, i {
     Full Screen Menu 
 */
 .fs-menu-overlay {
-    display: none;
     color: black;
     height: 0;
     width: 0;
@@ -139,14 +138,19 @@ em, i {
     top: 0;
     background-color: #FFA43B;
     overflow: hidden;
-    transition: all 1s ease-in-out;
+    opacity: 0;
+    transition: opacity 1s ease-out;
 }
 .fs-menu-overlay.show {
-    display: block;
     height: 100%;
     width: 100%;
-    transition: all 1s ease-in-out;
+    opacity: 1;
 }
+
+.fs-menu-overlay.hide {
+    opacity: 0;
+}
+
 .fs-menu-overlay-content {
   position: relative;
   top: 18%;
