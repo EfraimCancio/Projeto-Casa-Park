@@ -8,7 +8,7 @@
 .always-mobile-header {
     display: flex;
     justify-content: space-between;
-    padding: 28px 15px;
+    padding: 28px 0px;
     font-weight: bold;
     font-size: 24px;
 }
@@ -37,10 +37,14 @@
 .informations p {
     line-height: 1.35;
     padding-bottom: 20px;
+    font-weight: 300;
 }
 @media screen and (min-width: 768px) {
     .always-mobile-header {
         font-size: 45px;
+    }
+    .desk-menu{
+        font-weight: 800;
     }
     .always-mobile-container {
         display: flex;
