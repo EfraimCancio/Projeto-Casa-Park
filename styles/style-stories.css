@@ -11,12 +11,14 @@
     text-decoration: none;
 }
 .l-gallery {
-    padding-top: 23px;
-    margin-bottom: 20px;
+    
+    margin: 18px 15px 15px 15px;
     text-align: center;
 }
 .stories-image {
     padding-bottom: 40px;
+    width: 100%;
+    
 }
 .stories-modal {
     display: none;
