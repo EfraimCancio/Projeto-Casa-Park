@@ -20,7 +20,11 @@ open02.addEventListener('click', () => {
     modal02.classList.add('show');
 })
 close02.addEventListener('click', () => {
-    modal02.classList.remove('show');
+    modal02.classList.add('hide');
+    setTimeout(function(){
+        modal02.classList.remove('show');
+        modal02.classList.remove('hide');
+    }, 1000);
 })
 
 const modal03 = document.getElementById('stories-modal-left02');

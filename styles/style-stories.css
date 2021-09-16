@@ -16,23 +16,21 @@
     display: block;
     width: 100%;
 }
-.stories-modal-left01 {
+.stories-modal{
     transition: opacity 1s ease-out;
     opacity: 0;
     height: 0;
     width: 0;
     overflow: hidden;
-    background-color: #F356AB;
     top: 0;
     left: 0;
-          
+}
+
+.stories-modal-left01 {
+    background-color: #F356AB;
 }
 .stories-modal-right01 {
-    display: none;
-    background-color: #FBF341;
-    top: 0;
-    left: 0;
-    height: 4000px;       
+    background-color: #FBF341;   
 }
 .show {
     position: fixed;
