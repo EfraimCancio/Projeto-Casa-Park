@@ -95,16 +95,23 @@ strong {
     Full Screen Menu 
 */
 .fs-menu-overlay {
+    display: none;
     color: black;
     height: 0;
-    width: 100%;
+    width: 0;
     position: fixed;
     z-index: 1;
     left: 0;
     top: 0;
     background-color: #FFA43B;
     overflow: hidden;
-    transition: 0.5s;
+    transition: all 1s ease-in-out;
+}
+.fs-menu-overlay.show {
+    display: block;
+    height: 100%;
+    width: 100%;
+    transition: all 1s ease-in-out;
 }
 .fs-menu-overlay-content {
   position: relative;
