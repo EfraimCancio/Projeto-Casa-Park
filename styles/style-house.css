@@ -19,6 +19,13 @@
     background-position: center;
     text-align: center; 
 }
+
+@media screen and (min-width: 768px) {
+    .l-house-gallery {
+        pointer-events:none;
+    }
+}
+
 .l-house-image {
     padding: 0px;
     margin: 0px;  
@@ -29,16 +36,24 @@
     height: auto;
 }
 .house-modal {
-    display: none;
-    top: 130px;
-    left: 20px;
-    background-color: #fff;
-    height: 279px;
-    width: 280px;      
+    transition: opacity 1s ease-out;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    top: 0;
+    left: 0;
 }
-.show {
-    display: flex;
+
+.house-modal.show {
     position: fixed;
+    height: 4000px; 
+    width: 100%;
+    opacity: 1;
+}
+
+.house-modal.hide {
+    opacity: 0;
 }
 .modal-content {
     padding: 38px 20px 0px 20px ;
