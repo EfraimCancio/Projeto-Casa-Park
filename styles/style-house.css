@@ -7,6 +7,26 @@
     font-size: 24px;
 }
 
+.l-house-image {
+    position: relative;
+}
+
+.bottom-left-text {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    max-width: 733px;
+    color: #000;
+}
+
+.bottom-right-text {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    max-width: 733px;
+    color: #fff;
+}
+
 .link-menu{
     color: black;
     text-decoration: none;
