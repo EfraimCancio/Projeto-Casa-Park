@@ -30,9 +30,13 @@ window.onscroll = function () {
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
         document.querySelector("header").style.top = "0";
+        document.querySelector("header").classList.add('u-header-opacity');
+        document.querySelector(".home-header").classList.add('u-header-home-opacity');
     } else if (currentScrollPos > 150) {
         console.log(currentScrollPos);
         document.querySelector("header").style.top = "-100px";
+        document.querySelector("header").classList.remove('u-header-opacity');
+        document.querySelector(".home-header").classList.remove('u-header-home-opacity');
     }
     prevScrollpos = currentScrollPos;
 }

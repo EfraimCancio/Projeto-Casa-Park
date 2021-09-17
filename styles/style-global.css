@@ -42,6 +42,12 @@ header {
         margin-left: 35px;
     }
 }
+.u-header-opacity {
+    background-color: white;
+}
+.u-header-opacity.u-header-opacity {
+    background-color: transparent;
+}
 .l-logo-casa {
     display: flex;
     align-items: center;
