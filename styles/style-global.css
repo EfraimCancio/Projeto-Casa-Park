@@ -65,7 +65,7 @@ header {
     flex-wrap: wrap;
     font-weight: 800;
     justify-content: space-between;
-    padding: 29px 50px 22px 15px;
+    padding: 29px 15px 22px 15px;
 }
 .menu-close {
     font-size: 24px;
@@ -75,6 +75,10 @@ header {
 @media (min-width: 768px) {
     .menu-close {
         font-size: 40px;
+    }
+
+    .menu-header {
+        padding: 29px 50px 22px 15px;
     }
 }
 .menu-header a {
