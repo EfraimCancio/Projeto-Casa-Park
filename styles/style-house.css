@@ -65,9 +65,9 @@
     text-align: left;
 }
 .modal-content p {
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     font-size: 16px;
-    line-height: 20,8px;
+    line-height: 20.8px;
 }
  @media screen and (min-width: 768px) {
     .house-header {
