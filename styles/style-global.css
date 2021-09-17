@@ -56,8 +56,14 @@ em, i {
     padding-top: 51px;
 }
 .l-form {
-    margin: 15px;
+    margin: 15px auto;
+    max-width: 574px;
+    padding: 0px 15px;
 }
+#rd-section-kj8zmg71 {
+    background-color: transparent !important;
+}
+
 #rdstation-bricks-embeddable-form-bricks-component-YPhMIMwDkn4BO3gywVWVZw .bricks--column > div {
     font-family: "Lausanne";
     position: relative;
