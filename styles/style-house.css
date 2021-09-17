@@ -98,6 +98,8 @@
 
 .bottom-left-text, .bottom-right-text {
     display: none;
+    font-size: 20px;
+    line-height: 26px;
     margin: 0 36px;
     padding-bottom: 20px;
 }
