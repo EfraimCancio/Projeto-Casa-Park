@@ -1,5 +1,6 @@
-.always-mobile-section{
+.page-content.always-mobile-section{
     padding-bottom: 30px;
+    padding-top: 81px;
     margin-top: 6px;
 }
 .always-mobile-container {
@@ -50,7 +51,7 @@
 @media screen and (min-width: 768px) {
     .always-mobile-section {
         margin-top: 45px;
-        padding: 0 50px;
+        padding: 97px 50px 0;
     }
 }
 @media screen and (min-width: 1200px) {

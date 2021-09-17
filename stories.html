@@ -10,40 +10,70 @@
     <link rel="stylesheet" href="styles/style-stories.css">
 </head>
 <body>
-    <section>
-        <header class="header-internal-page">
-            <a href="index.html" class="l-logo-casa">
-                <img src="images/logo-mob-black.svg" class="logo-casa--header">
-            </a>
-            <h1 class="desk-menu">As histórias</h1>
-            <button class="link-menu" onclick="openNav()">Menu</button>
-        </header>
-        <!-- Full Screen Menu -->
-        <div id="fs-menu" class="fs-menu-overlay">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Fechar</a>
-            <div class="fs-menu-overlay-content">
-                <div class="l-fs-menu-header"></div>
-                <ul class="l-fs-menu-list">
-                    <li class="l-fs-menu-list__item"><a class="fs-menu-link fs-menu-link--from-center" href="always-mobile.html">Sempre móvel</a></li>
-                    <li class="l-fs-menu-list__item"><a class="fs-menu-link fs-menu-link--from-center" href="the-new-casapark.html">O novo casapark</a></li>
-                    <li class="l-fs-menu-list__item"><a class="fs-menu-link fs-menu-link--from-center" href="stories.html">As histórias</a></li>
-                    <li class="l-fs-menu-list__item"><a class="fs-menu-link fs-menu-link--from-center" href="house.html">A casa</a></li>
-                </ul>
-            </div>
+    <header class="header-internal-page">
+        <a href="index.html" class="l-logo-casa">
+            <img src="images/logo-mob-black.svg" class="logo-casa--header">
+        </a>
+        <h1 class="desk-menu">As histórias</h1>
+        <button class="link-menu" onclick="openNav()">Menu</button>
+    </header>
+    <!-- Full Screen Menu -->
+    <div id="fs-menu" class="fs-menu-overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Fechar</a>
+        <div class="fs-menu-overlay-content">
+            <div class="l-fs-menu-header"></div>
+            <ul class="l-fs-menu-list">
+                <li class="l-fs-menu-list__item"><a class="fs-menu-link fs-menu-link--from-center" href="always-mobile.html">Sempre móvel</a></li>
+                <li class="l-fs-menu-list__item"><a class="fs-menu-link fs-menu-link--from-center" href="the-new-casapark.html">O novo casapark</a></li>
+                <li class="l-fs-menu-list__item"><a class="fs-menu-link fs-menu-link--from-center" href="stories.html">As histórias</a></li>
+                <li class="l-fs-menu-list__item"><a class="fs-menu-link fs-menu-link--from-center" href="house.html">A casa</a></li>
+            </ul>
         </div>
-        <!-- .\ Full Screen Menu -->
+    </div>
+    <!-- .\ Full Screen Menu -->
+    <section>
         <div class="l-gallery">
             <div class="l-gallery-row">
                 <div class="l-image left01">
-                    <a class="open-modal" id="open-modal01" href="#stories-modal-left01"><img class="stories-image" src="images/stories-images/as-historias-adriana-freire-min.jpg"></a>
+                    <a class="open-modal" id="open-modal01" href="#stories-modal-left01">
+                        <img class="stories-image" src="images/stories-images/as-historias-adriana-freire-min.jpg">
+
+                        <div class="stories-desktop-text">
+                            <p><strong>Adriana Freire</strong></p>
+                            
+                            <p>Nos últimos 21 anos, Adriana se permitiu aproveitar o movimento da vida. Ela, que era uma pessoa mais exigente e inflexível, hoje trabalha com responsabilidade, porém com bem menos exigências. Escreve mais, simplifica mais as coisas, gasta menos, desapega mais e dá mais lugar para as próprias escolhas.</p>
+                            <p>Uma escolha que não mudou de lá para cá foi a escolha pelo Casapark. Na nossa longa história juntos, passando por fases como gerente, como consultora, como empresária e outras simplesmente como visitante, Adriana sempre gostou de ver o céu de Brasília daqui. Seria inusitado se fôssemos só um shopping, mas como somos muito mais que isso, faz todo sentido.  Pra ela, representamos elegância, discrição, eventos e cultura.</p>
+                            <p>Além de passear pelo Casapark e escrever, Adriana tem como hobbies sua oficina onde produz peças, conserta coisas e ajuda amigos em pequenos reparos e arrumações. No processo de amadurecimento que ela mesma diz ter acompanhado o seu envelhecimento, o que a move também se transforma constantemente. Em 2000, quando o Casapark inaugurou, o que a movia eram seus filhos e a responsabilidade com eles, hoje, o que a move é a busca por ser uma pessoa melhor.</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="l-image right01">
-                    <a class="open-modal" id="open-modal02" href="#stories-modal-right01"><img class="stories-image" src="images/stories-images/as-historias-guilherme-e-miguel-min.jpg"></a> 
+                    <a class="open-modal" id="open-modal02" href="#stories-modal-right01">
+                        <img class="stories-image" src="images/stories-images/as-historias-guilherme-e-miguel-min.jpg">
+
+                        <div class="stories-desktop-text">
+                            <p><strong>Guilherme Rodrigues e Miguel Gustavo</strong></p>
+
+                            <p>Gui e Miguel são arquitetos. À sua maneira, cada um escreveu uma história pessoal e profissional com o Casapark. Agora que estão formando uma família, essa história ganha um novo capítulo.</p>
+
+                            <p>Para Gui, o Casapark sempre foi um lugar de boas lembranças e prospecção de novos sonhos. Frequentador desde a sua criação, quando ainda era um estudante de arquitetura, Gui enxerga o Casapark além da referência em sua área e design. É um lugar agradável para passar as tardes de trabalho, almoçar ou mesmo para realizar alguns de seus hobbies favoritos como sair com os amigos e organizar a casa. Isso não seria diferente com o novo Casapark: um espaço para construir novas lembranças, melhores ainda.</p>
+
+                            <p>Já para Miguel, que especifica no shopping desde que se formou, há 19 anos, o tempo só aumentou a paixão pelo seu trabalho e pelas lojas que compõe o espaço. Há 2 décadas trabalhando para deixar seus clientes felizes e inspirados com suas casas, hoje, aos 40, sente que tem mais tranquilidade e novas habilidades para realizar seus projetos. Para ele, o Casapark é um lugar para encontrar novas possibilidades para esses clientes. Para nós, é um prazer poder oferecer novidades há tanto tempo. No novo Casapark, a inovação é um convite para você também entrar em movimento.</p>
+                        </div>
+                    </a> 
                 </div>
             </div>
             <div class="l-gallery-row">
                 <div class="l-image left02">
-                    <a class="open-modal" id="open-modal03" href="#stories-modal-left02"><img class="stories-image" src="images/stories-images/as-historias-carol-benincasa-min.jpg"></a>
+                    <a class="open-modal" id="open-modal03" href="#stories-modal-left02">
+                        <img class="stories-image" src="images/stories-images/as-historias-carol-benincasa-min.jpg">
+
+                        <div class="stories-desktop-text">
+                            <p><strong>Carol Benincasa</strong></p>
+
+                            <p>Essa é a Carol. Amante dos pássaros, do verde, dos ipês de Brasília, dos livros e dos patins, ela trabalha como vendedora aqui no Casapark em uma loja que é a sua cara! Mas o trabalho é só um dos motivos que faz da Carol uma das nossas visitantes. Ela gosta do Casapark pelo espaço aconchegante, gostoso de passear e pelos bons restaurantes que encontra aqui. Ela também acha que temos um dos melhores cinemas da cidade - e nós não vamos negar, né? A paixão pelas telas vem de nova, quando se revezava entre seu videogame e as páginas dos livros. Movida desde sempre à curiosidade e inovação, ela tem muito mais em comum com a gente do que imagina! O Casapark está em movimento por causa da Carol. E o que move a Carol é também o que nos move.</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="l-image right02">
                     <a class="open-modal" id="open-modal04" href="#stories-modal-right02"><img class="stories-image" src="images/stories-images/as-historias-isabella-e-daniel-min.jpg"></a>
@@ -51,7 +81,19 @@
             </div>
             <div class="l-gallery-row">
                 <div class="l-image left03">
-                    <a class="open-modal" id="open-modal05" href="#stories-modal-left03"><img class="stories-image" src="images/stories-images/as-historias-carlos-min.jpg"></a>
+                    <a class="open-modal" id="open-modal05" href="#stories-modal-left03">
+                        <img class="stories-image" src="images/stories-images/as-historias-carlos-min.jpg">
+
+                        <div class="stories-desktop-text">
+                            <p><strong>Isabella Souza e Daniel Moreira</strong></p>
+
+                            <p>Nós fazemos parte da história do Dan e da Bella desde antes de eles se conhecerem. O hobbie da Bella é descobrir restaurantes e cafés pela cidade. Já o Dan é apaixonado por arquitetura e decoração. Aqui no Casapark, eles encontram espaço para fazer um pouco do que cada um mais gosta e ainda trazem os pets para o passeio.</p>
+
+                            <p>Quando criança, Bella vinha olhar os móveis no espaço que considera sua segunda casa. Assim, começou a descobrir qual seria sua profissão. Hoje, fazemos parte do dia a dia da arquiteta, que não perde a chance de fazer uma visita para ficar por dentro das tendências de mobiliário e decoração. Ela busca pela representatividade feminina na arquitetura, e nós ficamos orgulhosos de poder fazer parte desse seu processo.</p>
+
+                            <p>A mãe do Dan é arquiteta e, por isso, desde criança ele visita o Casapark. 21 anos depois, nós continuamos a fazer parte da vida dele. Hoje, o empresário, sócio da marca Dane-se nos visita sempre que pode, seja à trabalho, já que está desenvolvendo nossos novos uniformes, ou em seu tempo livre.  Afinal, aqui ele vive sua paixão por arquitetura e decoração, ao mesmo tempo em que faz uma parada obrigatória para tomar um sorvete. O que move o Dan são seus sonhos e realizações. O que nos move é participar da vida do Dan e da Bella há tanto</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="l-image right03">
                     <a class="open-modal" id="open-modal06" href="#stories-modal-right03"><img class="stories-image" src="images/stories-images/as-historias-isabela-valente-min.jpg"></a>

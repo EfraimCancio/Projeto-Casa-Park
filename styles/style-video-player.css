@@ -1,4 +1,3 @@
-
 .video-header {
     display: flex;
     justify-content: space-between;
@@ -39,5 +38,8 @@
     .video-player{
         margin-top: 46px;
         margin-bottom: 140px;
+    }
+    .main-video {
+        padding-top: 95px;
     }
 }

@@ -10,28 +10,28 @@
     <link rel="stylesheet" href="styles/style-video-player.css" type="text/css">
 </head>
 <body>
-    <section>
-        <header class="video-header">
-            <a href="index.html" class="l-logo-casa">
-                <img src="images/logo-mob-black.svg" class="logo-casa--header">
-            </a>
-            <p class="desk-menu">O novo casapark</p>
-            <button class="link-menu" onclick="openNav()">Menu</button>
-        </header>
-        <!-- Full Screen Menu -->
-        <div id="fs-menu" class="fs-menu-overlay">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Fechar</a>
-            <div class="fs-menu-overlay-content">
-                <div class="l-fs-menu-header"></div>
-                <ul class="l-fs-menu-list">
-                    <li class="l-fs-menu-list__item"><a class="fs-menu-link fs-menu-link--from-center" href="always-mobile.html">Sempre móvel</a></li>
-                    <li class="l-fs-menu-list__item"><a class="fs-menu-link fs-menu-link--from-center" href="the-new-casapark.html">O novo casapark</a></li>
-                    <li class="l-fs-menu-list__item"><a class="fs-menu-link fs-menu-link--from-center" href="stories.html">As histórias</a></li>
-                    <li class="l-fs-menu-list__item"><a class="fs-menu-link fs-menu-link--from-center" href="house.html">A casa</a></li>
-                </ul>
-            </div>
+    <header class="header-internal-page">
+        <a href="index.html" class="l-logo-casa">
+            <img src="images/logo-mob-black.svg" class="logo-casa--header">
+        </a>
+        <p class="desk-menu">O novo casapark</p>
+        <button class="link-menu" onclick="openNav()">Menu</button>
+    </header>
+    <!-- Full Screen Menu -->
+    <div id="fs-menu" class="fs-menu-overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Fechar</a>
+        <div class="fs-menu-overlay-content">
+            <div class="l-fs-menu-header"></div>
+            <ul class="l-fs-menu-list">
+                <li class="l-fs-menu-list__item"><a class="fs-menu-link fs-menu-link--from-center" href="always-mobile.html">Sempre móvel</a></li>
+                <li class="l-fs-menu-list__item"><a class="fs-menu-link fs-menu-link--from-center" href="the-new-casapark.html">O novo casapark</a></li>
+                <li class="l-fs-menu-list__item"><a class="fs-menu-link fs-menu-link--from-center" href="stories.html">As histórias</a></li>
+                <li class="l-fs-menu-list__item"><a class="fs-menu-link fs-menu-link--from-center" href="house.html">A casa</a></li>
+            </ul>
         </div>
-        <!-- .\ Full Screen Menu -->
+    </div>
+    <!-- .\ Full Screen Menu -->
+    <section class="main-video">
         <div class="wrapper-video-player">
             <div class="video-player">
                 <iframe class="player" src="https://www.youtube.com/embed/sEeAzgsdipY" ></iframe>

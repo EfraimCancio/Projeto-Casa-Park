@@ -14,7 +14,7 @@
 .l-house-gallery {
     display: flex;
     margin: 0px;
-    padding-top: 15px;
+    padding-top: 81px;
     width: 100%;
     background-position: center;
     text-align: center; 
@@ -22,6 +22,7 @@
 
 @media screen and (min-width: 768px) {
     .l-house-gallery {
+        padding-top: 142px;
         pointer-events:none;
     }
 }
