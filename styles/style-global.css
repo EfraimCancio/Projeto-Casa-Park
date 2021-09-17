@@ -56,14 +56,26 @@ em, i {
     padding-top: 51px;
 }
 .l-form {
-    margin: 15px auto;
+    margin: 37px auto 0;
     max-width: 574px;
     padding: 0px 15px;
 }
 #rd-section-kj8zmg71 {
     background-color: transparent !important;
 }
-
+#rd-text-kj8zmg74 {
+    display: none;
+}
+#rd-form-kj8zmg77 .bricks-form__input {
+    border-color: white !important;
+    height: 40px !important;
+}
+#rd-form-kj8zmg77 .bricks-form__field {
+    margin-bottom: 30px !important;
+}
+#rd-form-kj8zmg77 {
+    margin-bottom: 0 !important;
+}
 #rdstation-bricks-embeddable-form-bricks-component-YPhMIMwDkn4BO3gywVWVZw .bricks--column > div {
     font-family: "Lausanne";
     position: relative;
