@@ -194,3 +194,6 @@
 .stories-desktop-text.txt-white {
     color: white;
 }
+.l-image:hover .stories-desktop-text {
+    display: block;
+}
