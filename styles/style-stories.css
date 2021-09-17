@@ -192,7 +192,11 @@
 }
 @media (min-width: 1500px) {
     .stories-desktop-text {
-        font-size: 24px;
+        padding: 30px;
+    }
+}
+@media (min-width: 1920px) {
+    .stories-desktop-text {
         padding: 60px;
     }
 }
