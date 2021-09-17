@@ -15,6 +15,13 @@ strong, b {
 em, i {
     font-style: italic;
 }
+header {
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    transition: top 0.5s; /* Transition effect when sliding down (and up) */
+    width: 100%; /* Full width */
+}
+
 .header {
     display: flex;
     align-items: center;
