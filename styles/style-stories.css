@@ -63,25 +63,21 @@
 .stories-modal-right05 {
     background-color: #FFA439;   
 }
-
 .show {
     position: fixed;
     height: 4000px; 
     width: 100%;
     opacity: 1;
 }
-
 .hide{
     opacity: 0;
 }
-
 .modal-content {
     padding: 25px;
     text-align: left;
 }
 .close-modal {
     float: right;
-
 }
 .modal-content p {
     padding-top: 70px ;
