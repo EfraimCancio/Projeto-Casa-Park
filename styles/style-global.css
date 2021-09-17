@@ -38,6 +38,9 @@ header {
         font-size: 45px;
         padding: 28px 50px;
     }
+    .l-logo-casa {
+        margin-left: 35px;
+    }
 }
 .l-logo-casa {
     display: flex;
@@ -124,7 +127,8 @@ header {
 }
 @media (min-width: 1200px) {
     .desk-menu {
-        display: inline;
+        display: inline-block;
+        padding-right: 65px;
     }
     .page-content {
         padding: 0px 50px;
@@ -146,6 +150,7 @@ header {
     padding: 0;
     text-decoration: none;
     transition: .2s;
+    margin-right: 30px;
 }
 .link-menu:hover, .link-menu:focus {
     border-bottom: 1px solid white;
@@ -161,6 +166,7 @@ header {
     }
     .link-menu {
         font-size: 40px;
+        margin-right: 65px;
     }
 }
 
