@@ -52,6 +52,34 @@ header {
 .home-header.u-header-opacity {
     background: none !important;
 }
+.text-right {
+    text-align: right !important;
+}
+.text-left {
+    text-align: left !important;
+}
+.menu-header {
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 800;
+    justify-content: space-between;
+    padding: 29px 50px 22px 15px;
+}
+.menu-close {
+    font-size: 24px;
+    font-weight: 800;
+    text-decoration: none;
+}
+@media (min-width: 768px) {
+    .menu-close {
+        font-size: 40px;
+    }
+}
+.menu-header a {
+    color: black;
+}
 .l-logo-casa {
     display: flex;
     align-items: center;
@@ -208,11 +236,11 @@ header {
 }
 
 .fs-menu-overlay-content {
-  position: relative;
-  top: 18%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
+    position: relative;
+    top: 18%;
+    width: 100%;
+    text-align: center;
+    margin-top: -57px;
 }
 .fs-menu-overlay .closebtn {
   position: absolute;
