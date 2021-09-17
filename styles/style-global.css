@@ -42,12 +42,12 @@ em, i {
 }
 .footer-section {
     width: 100%;
-    height: 727px;
     background-image: url(../images/newsletter/fundo-newsletter--mobile.jpg);
+    padding-bottom: 48px;
     padding-top: 41px;
     text-align: center;
     background-color: rgb(197, 201, 206);
-    background-position: top left;
+    background-position: top center;
     background-size: cover;
     text-align: center; 
     background-repeat: no-repeat;
@@ -59,6 +59,9 @@ em, i {
     margin: 37px auto 0;
     max-width: 574px;
     padding: 0px 15px;
+}
+#rd-row-kj8zmg72 {
+    display: none !important;
 }
 #rd-section-kj8zmg71 {
     background-color: transparent !important;
@@ -89,6 +92,16 @@ em, i {
     margin: 0px;
     padding: 0px;
 }
+#rd-button-kj8zmg78 {
+    background-color: white !important;
+    border-radius: 5px !important;
+    color: black !important;
+    transition: all .32s linear;
+}
+#rd-button-kj8zmg78:hover, #rd-button-kj8zmg78:focus {
+    color: white !important;
+    background-color: black !important;
+}
 .newsletter-desc {
     line-height: 1.14;
 }
@@ -104,12 +117,11 @@ em, i {
     .desk-menu {
         display: inline;
     }
-
-    .footer-section {
-        height: 775px;
-    }
     .page-content {
         padding: 0px 50px;
+    }
+    .footer-section {
+        padding-bottom: 96px;
     }
 }
 
