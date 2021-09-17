@@ -9,6 +9,7 @@
 }
 .l-image {
     padding-bottom: 20px;
+    position: relative;
 }
 
 @media screen and (min-width: 768px){
@@ -19,6 +20,10 @@
 
 .l-gallery .open-modal {
     display: block;
+    position: relative;
+}
+.l-gallery .open-modal {
+    text-decoration: none;
 }
 .stories-image {
     display: block;
@@ -169,4 +174,23 @@
     .l-image {
         padding-bottom: 150px;
     }
+}
+
+.stories-desktop-text {
+    background-color: #2B61D7;
+    color: black;
+    font-size: 24px;
+    left: 0;
+    height: 100%;
+    line-height: 31.2px;
+    top: 0;
+    text-align: left;
+    padding: 0 60px;
+    position: absolute;
+}
+.stories-desktop-text p {
+    margin-bottom: 18px;
+}
+.stories-desktop-text.txt-white {
+    color: white;
 }
