@@ -80,6 +80,7 @@
     opacity: 0;
 }
 .modal-content {
+    line-height: 20.8px;
     padding: 25px;
     text-align: left;
 }
@@ -87,9 +88,12 @@
     float: right;
 }
 .modal-content p {
-    padding-top: 70px ;
+    padding-bottom: 10px;
 }
-@media screen and (min-width: 768px) {  
+@media screen and (min-width: 768px) { 
+    .modal-content p {
+        padding-bottom: 18px;
+    } 
     .l-gallery {
         margin: 11px 50px;
         padding: 202px 0 0;
