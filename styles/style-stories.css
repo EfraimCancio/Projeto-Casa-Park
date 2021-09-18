@@ -222,6 +222,7 @@
 
 @media screen and (min-width: 1400px) {
     .l-image:hover .stories-desktop-text {
-        display: block;
+        display: flex;
+        align-items: center;
     }
 }
