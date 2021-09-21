@@ -39,3 +39,17 @@ close3.addEventListener('click', () => {
         modal3.classList.remove('hide');
     }, 1000);
 })
+
+const open4 = document.getElementById('open-modal4');
+const modal4 = document.getElementById('house-modal4');
+const close4 = document.getElementById('close-modal4');
+open4.addEventListener('click', () => {
+    modal4.classList.add('show');
+})
+close4.addEventListener('click', () => {
+    modal4.classList.add('hide');
+    setTimeout(function () {
+        modal4.classList.remove('show');
+        modal4.classList.remove('hide');
+    }, 1000);
+})

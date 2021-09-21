@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} sempremovel.casapark.com.br [NC]
+RewriteRule ^(.*)$ https://www.casapark.com.br/sempremovel/$1 [L,NC,QSA]

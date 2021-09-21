@@ -73,6 +73,9 @@
 .stories-modal-right05 {
     background-color: #FFA439;   
 }
+.stories-modal-left02 p, .stories-modal-left02 h2, .stories-modal-left03 p, .stories-modal-left03 h2, .stories-modal-right04 p, .stories-modal-right04 h2, .stories-modal-left05 p, .stories-modal-left05 h2 {
+    color: white;
+}
 .show {
     position: fixed;
     height: 4000px; 
@@ -89,6 +92,7 @@
     font-size: 16px;
 }
 .close-modal {
+    cursor: pointer;
     float: right;
     margin-top: -95px;
 }
